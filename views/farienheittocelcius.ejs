@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="temperature.css" rel="stylesheet">
+</head>
+<body>
+    
+  <%- include("partials/header.ejs") %>
+    <section id="firstdiv">
+        <div id="content1">
+          <a href='https://postimg.cc/gXNFB6qY' target='_blank'><img  class="background-image" src='https://i.postimg.cc/kGdJGQ2t/Untitled-design.png'  alt='Untitled-design'/></a><br />
+<div class="box">
+<h1 class="text1">Farenheit to Celcius Converter</h1>
+
+<form action="/submit2" method="post">
+  <label for="fname">Enter the Temperature in Fahrenheit:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter the Temperature ">
+  <input class="good" type="submit" value="Convert">
+</form>
+
+<h1 class="worst">Converted Temperature: <%= temp %> Celsius</h1>
+
+</div>
+</div>
+</section>
+<%- include("partials/footer.ejs") %>  
+
+</body>
+</html>

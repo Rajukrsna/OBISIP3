@@ -1,0 +1,70 @@
+.box{
+   border-style: double;
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+   
+    border: 2px solid #3498db;
+    margin: 60px auto; /* Center the box and add vertical margin */
+    padding: 50px;
+    border: 2px solid #3498db; /* Border color for the box */
+    border-radius: 10px; /* Rounded corners */
+    max-width:  645px /* Limit the maximum width of the box */
+}
+.text1 {
+    color: #18191a; /* Text color for the heading */
+    font-size: 37px; /* Increase font size for the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+.good {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px; /* Add space above each button */
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  .good:hover {
+    background-color: #2980b9; /* Darker color on hover */
+  }
+  #container {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("public\images\Untitled design.png"); /* Replace with the correct image URL */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Adjust the opacity as needed */
+    z-index: -1; /* Place the background image behind the content */
+}
+
+.content1{
+    z-index: 1; /* Place the content above the background image */
+    /* Additional styling for your content goes here */
+    padding-top:30px;
+}
+
+.worst{
+  font-family: 'Arial', sans-serif;
+  color: #3498db; /* Blue color, you can customize */
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5rem; /* Adjust the font size as needed */
+ text-decoration: solid;
+ font-weight: 700;
+}
